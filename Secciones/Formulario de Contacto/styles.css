@@ -1,3 +1,7 @@
+@font-face {
+	font-family: 'Futura';
+	src: url("/trabajo-final/Home/fonts/Futura.woff");
+}
 
 body{
     display: flex;
@@ -5,8 +9,15 @@ body{
     justify-content: center;
     height: 100%;
 	font-family: "Lato", sans-serif;
+    -webkit-font-smoothing: antialiased;
+	
     
 }
+.fondo{
+    width:100%;
+}
+
+
 /*---------------------
 	Header section
 -----------------------*/
@@ -47,97 +58,55 @@ body{
 	font-size: 16px;
 	padding: 10px 5px;
 	margin-right: 30px;
-	color: #070707;
+	color: #ffffff;
 }
 
 
-.hero-section {
-	height: 900px;
-	padding-top: 260px;
-	display: block;
-	background-image: url("../img/hero-bg.png");
-	background-size: cover;
-	background-color: #ffffff;
-	background-position: right top;
-	background-repeat: no-repeat;
-	position: relative;
-	overflow: hidden;
-}
-
-.hero-section .laptop-image {
-	width: 685px;
-	max-width: none;
-	position: relative;
-	left: 80px;
-}
-
-.hero-text {
-	padding-top: 60px;
-}
-
-.hero-text h2 {
-	font-size: 70px;
-	margin-bottom: 35px;
-}
-
-.hero-text h2 span {
-	color: #16d0c5;
-}
-
-.hero-text h4 {
-	color: #75849a;
-	font-size: 22px;
-}
-
-.hero-subscribe-from {
-	margin-top: 50px;
-	display: block;
-}
-
-.hero-subscribe-from input {
-	width: 315px;
-	border: 1px solid #ebebeb;
-	background: #fff;
-	height: 48px;
-	padding: 0 25px;
-	border-radius: 50px;
-	font-family: "Futura", sans-serif;
-	font-size: 16px;
-	margin-right: 8px;
-	margin-bottom: 20px;
-}
 
 
 /*---------------------
 	Form section
 -----------------------*/
 
-.introForm{
-    background-color: #20509e;
-    position:relative;
-    top: 120px;
-    display: flex;
-    justify-content: space-around;
-    justify-content: center;
+.introForm h1 span {
+	color: #16d0c5;
+}
+.introForm h1 {
+	color: #20509e;
+}
 
+.introForm{
+    font-family: "Futura", sans-serif;
+    position:absolute;
+    top: 360px;
+    left: 90px;
+  
 }
 
 .int{
     width: 50%;
     text-align: center;
-    font-size: 15px;
+    font-size: 19px;
 }
 
-.formulario{
-    text-align: center;   
+
+.gradient-bg {
+	/* FF3.6-15 */
+	/* Chrome10-25,Safari5.1-6 */
+	background: -webkit-gradient(linear, left top, right top, from(#3e2bce), color-stop(100%, #2dd3aa), color-stop(100%, #2dd3aa), to(#2dd3aa));
+	background: -o-linear-gradient(left, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+	background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e2bce', endColorstr='#2dd3aa', GradientType=1);
+	/* IE6-9 */
 }
 
 form{
-    background-color: #9ce2a6;
+    font-family: "Futura", sans-serif;
+    position:relative;
+    top: 70px;
     height: 650px;
-    font-size: 20px;
-    margin-left: 650px;
-    margin-right: 650px;
+    font-size: 23px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,13 +114,39 @@ form{
     
 }
 .boton{
-  font-size: 15px;
+  font-size: 20px;
 }
 
+#step-2 {
+    display: none;
+  }
+
+.resumen{
+    height: 650px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+#summary {
+    border: 1px solid #2e0985;
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
 /*---------------------
 	Footer Section
 -----------------------*/
+footer{
+    position:relative;
+    top: 450px;
+}
 
 .footer-widget span {
 	color: #acb9cc;
@@ -245,26 +240,5 @@ footer{
     text-align: center;
 }*/
 
-#step-2 {
-    display: none;
-  }
 
-.resumen{
-    height: 650px;
-    font-size: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-  
-#summary {
-    border: 1px solid #2e0985;
-    padding: 20px;
-    font-size: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
 
