@@ -1,0 +1,75 @@
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: rgb(55, 0, 255) !important;
+  }
+  .container {
+    padding: 80px 120px;
+  }
+  .grid { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: stretch;
+    }
+  .contenedor{
+  display: grid;
+  column-gap:50px ;
+  row-gap: 50px;
+  /*flex-direction: row;*/
+  justify-content:center;
+  /*flex-wrap:wrap;*/
+  gap: 16px;
+  }
+  .tarjeta{
+  display: grid;
+  justify-content:center;
+  width: 250px;;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius:15px;
+  font-family: sans-serif;
+  }
+  .titulo{
+  font-size: 24px;
+  padding: 10px 10px 0 10px;
+  justify-content: center;
+  }
+  .cuerpo{
+  padding:0 20px 20px;
+  flex: 1 1 100%;
+  justify-content: center;
+}
+.img{  
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  justify-content: center;
+}

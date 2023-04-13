@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.introForm{
+    background-color: rgb(197, 199, 198);
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+
+.int{
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.formulario{
+    text-align: center;   
+}
+
+form{
+    background-color: rgb(197, 199, 198);
+    height: 650px;
+    font-size: 20px;
+    margin-left: 650px;
+    margin-right: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.boton{
+  font-size: 15px;
+}
+
+footer{
+    background-color: rgb(197, 199, 198);
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    
+}
+
+.secciones{
+    width: 34% ;
+    text-align: center;
+}
+
+#step-2 {
+    display: none;
+  }
+
+.resumen{
+    height: 650px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+#summary {
+    border: 1px solid #2e0985;
+    padding: 20px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
