@@ -18,9 +18,11 @@
   
     
 </head>  
+<body>
+
+
 <section>
-  <img class="fondo" src="./images/hero-bg.png">
-    <header>
+  <img class="fondo" src="/trabajo-final/Home/img/hero-bg.png">
       <header class="header-section clearfix">
         <div class="container-fluid">
           <a href="index.html" class="site-logo">
@@ -31,14 +33,14 @@
           <nav class="main-menu">
             <ul class="menu-list">
               <li><a href="/trabajo-final/Home/index.html">Home</a></li>
-              <li><a href="/trabajo-final/Secciones/cripto/index.html">Organización</a></li>
+              <li><a href="/trabajo-final/Secciones/Organizacion/organizacion.html">Organización</a></li>
               <li><a href="/trabajo-final/Secciones/Nuestro Equipo-20230413T025126Z-001/Nuestro Equipo/Index.QS1.html">Nuestro Equipo</a></li>
               <li><a href="/trabajo-final/Secciones/Cotizador/index.html">Cotizador</a></li>
             </ul>
           </nav>
         </div>
       </header>
-    </header>
+  </section>
  
 
     
@@ -63,29 +65,29 @@
   
      <form  class="features-section spad gradient-bg" id="step-1" onsubmit="event.preventDefault(); validarFormulario();">
       <div>
-        <label for="nombre">Nombre:</label>
+        <label class="btn btn-outline-light" for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="name" minlength="3" required>
       </div><br>
       <div>
-        <label for="apellido">Apellido:</label>
+        <label class="btn btn-outline-light" for="apellido">Apellido:</label>
         <input type="text" id="apellido" required>
       </div><br>
       <div>
-        <label for="tel">Telefono:</label>
+        <label class="btn btn-outline-light" for="tel">Telefono:</label>
         <input type="text" id="tel" required>
       </div><br>
       <div>
-        <label for="email">Email:</label>
+        <label class="btn btn-outline-light" for="email">Email:</label>
         <input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
       </div><br>
       <div>
-        <label for="pass">Contraseña:</label>
-        <input type="text" id="pass" required>
+        <label class="btn btn-outline-light" for="pass">Contraseña:</label>
+        <input type="password" id="pass" required>
       </div><br>
-      <div>
-        <label><input type="checkbox" required>Acepto Términos y Condiciones
-        </label><br>
-      </div><br>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" required>
+        <label class="form-check-label" for="flexSwitchCheckChecked">Acepto Términos y condiciones</label>
+    </div><br>
       <div>
         <button type="submit" class="btn btn-outline-light" id="next-btn">Confirmar</button>
       </div><br>
@@ -118,10 +120,10 @@
           <div class="col-md-6 col-lg-2 offset-lg-1 footer-widget">
             <h5 class="widget-title">Secciones</h5>
             <ul>
-              <li><a href="#">Organización</a></li>
-              <li><a href="#">Equipo</a></li>
-              <li><a href="#">Contacto</a></li>
-              <li><a href="#">Cotizador</a></li>
+              <li><a href="/trabajo-final/Home/index.html">Inicio</a></li>
+              <li><a href="/trabajo-final/Secciones/Organizacion/organizacion.html">Organización</a></li>
+              <li><a href="/trabajo-final/Secciones/Nuestro Equipo-20230413T025126Z-001/Nuestro Equipo/Index.QS1.html">Equipo</a></li>
+              <li><a href="/trabajo-final/Secciones/Cotizador/index.html">Cotizador</a></li>
             </ul>
           </div>
           <div class="col-md-6 col-lg-3 footer-widget pl-lg-5 pl-3">
@@ -178,6 +180,6 @@
     </footer>
     <script src="script.js"></script> -->
 
-</body>
+  </body>
 
 </html>

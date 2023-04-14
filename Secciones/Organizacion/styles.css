@@ -17,13 +17,14 @@ body{
     width:100%;
 }
 
-
+h1 {
+	font-size: 70px;
+} 
 p {
 	font-size: 22px;
 	color: #75849a;
 	line-height: 1.6;
 }
-
 /*---------------------
 	Header section
 -----------------------*/
@@ -68,20 +69,18 @@ p {
 }
 
 
-
-
 /*---------------------
-	Form section
+	Presentacion 
 -----------------------*/
 
-.introForm h1 span {
+.presentacion h1 span {
 	color: #16d0c5;
 }
-.introForm h1 {
+.presentacion h1 {
 	color: #20509e;
 }
 
-.introForm{
+.presentacion{
     font-family: "Futura", sans-serif;
     position:absolute;
     top: 360px;
@@ -92,60 +91,23 @@ p {
 .int{
     width: 50%;
     text-align: center;
-    font-size: 19px;
+    font-size: 20px;
 }
 
-
-.gradient-bg {
-	/* FF3.6-15 */
-	/* Chrome10-25,Safari5.1-6 */
-	background: -webkit-gradient(linear, left top, right top, from(#3e2bce), color-stop(100%, #2dd3aa), color-stop(100%, #2dd3aa), to(#2dd3aa));
-	background: -o-linear-gradient(left, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
-	background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e2bce', endColorstr='#2dd3aa', GradientType=1);
-	/* IE6-9 */
-}
-
-
-form{
+.valores{
     font-family: "Futura", sans-serif;
-    position:relative;
-    top: 70px;
-    height: 650px;
-    font-size: 23px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-}
-.boton{
-  font-size: 20px;
-}
-
-#step-2 {
-    display: none;
-  }
-
-.resumen{
-    height: 650px;
-    font-size: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+    position:absolute;
+    top: 670px;
+    left: 620px;
   
-#summary {
-    border: 1px solid #2e0985;
-    padding: 20px;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+}
+
+.valores h1 span {
+	color: #16d0c5;
+}
+.valores h1 {
+	color: #20509e;
+}
 
 /*---------------------
 	Footer Section
@@ -233,19 +195,3 @@ footer{
 	font-size: 14px;
 	margin-left: 20px;
 }
-/*
-footer{
-    background-color: rgb(197, 199, 198);
-    display: flex;
-    justify-content: space-evenly;
-    justify-content: center;
-    
-}
-
-.secciones{
-    width: 34% ;
-    text-align: center;
-}*/
-
-
-
