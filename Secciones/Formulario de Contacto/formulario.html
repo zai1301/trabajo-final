@@ -2,35 +2,66 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Formulario de Contacto</title>
+    <title>Grupo 5 - Landing Page CoinFlow</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/83f40d8e55.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     
-<body>
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="Grupo 5 - Landing Page CoinFlow">
+    <meta name="keywords" content="cryptocurrency, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link href="img/favicon.ico" rel="shortcut icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  
+    
+</head>  
+<section>
+  <img class="fondo" src="./images/hero-bg.png">
     <header>
-      <!--  <navbar>
-        <h5>Barra de navegacion</h5>
-       </navbar> -->
+      <header class="header-section clearfix">
+        <div class="container-fluid">
+          <a href="index.html" class="site-logo">
+            <img src="img/logo.png" alt="" width="280 px">
+          </a>
+          <div class="responsive-bar"><i class="fa fa-bars"></i></div>
+          <a href="" class="user"><i class="fa fa-user"></i></a>
+          <nav class="main-menu">
+            <ul class="menu-list">
+              <li><a href="/trabajo-final/Home/index.html">Home</a></li>
+              <li><a href="/trabajo-final/Secciones/cripto/index.html">Organización</a></li>
+              <li><a href="/trabajo-final/Secciones/Nuestro Equipo-20230413T025126Z-001/Nuestro Equipo/Index.QS1.html">Nuestro Equipo</a></li>
+              <li><a href="/trabajo-final/Secciones/Cotizador/index.html">Cotizador</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
     </header>
+ 
+
+    
+     
     <div class="introForm">
             <div class="int">
-                <h1>Formulario de Contacto</h1>
+                <h1>Formulario de <span>Contacto</span></h1>
+                <br>
                 <p>
                   Te damos la bienvenida a CoinFlow, en nuestra empresa creemos que todo el mundo debería tener derecho a ganar, holdear, gastar, compartir y dar su dinero,
                   sin importar su identidad o su procedencia. Te invitamos a completar tus datos y en breve un 
-                  assesor se contactara para darte mayor información.
+                  asesor se contactará para darte mayor información.
                 </p>
             </div>
-            <div class="int">
-                <img class="imgBitcoin" src="images/bitcoin-2007769_1280.jpg" alt="bitcoin" width="200 px">
-            </div>
+            
     </div>
+  
+
+
+
     
-    <h1 class="formulario">Formulario</h1>
-    <hr>
-    <form id="step-1" onsubmit="event.preventDefault(); validarFormulario();">
+  
+     <form  class="features-section spad gradient-bg" id="step-1" onsubmit="event.preventDefault(); validarFormulario();">
       <div>
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="name" minlength="3" required>
@@ -56,17 +87,20 @@
         </label><br>
       </div><br>
       <div>
-        <button type="submit" class="btn btn-outline-primary" id="next-btn">Confirmar</button>
+        <button type="submit" class="btn btn-outline-light" id="next-btn">Confirmar</button>
       </div><br>
     </form>
-    <form id="step-2">
+    <form class="features-section spad gradient-bg" id="step-2">
       <div class="resumen">
         <p>Resumen:</p>
         <div id="summary"></div>
-        <button class="btn btn-primary" id="back-btn">Volver</button>
+        <button class="btn btn-light" id="back-btn">Volver</button>
       </div>
     </form>
-    
+   
+  
+
+
        <br>
        <br>
        <br>
@@ -120,6 +154,7 @@
   
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="script.js"></script>
     <!-- <footer>
         <div class="secciones">
             <h4>Sobre Nosotros</h4>
