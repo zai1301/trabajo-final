@@ -17,7 +17,7 @@ Trabajo final del curso, realizado por el Grupo nro 5.
 
 ## Descripcion del Proyecto
 
-Realizamos una exchange para el intercambio de criptomonedas:
+Realizamos una exchange para el intercambio de criptomonedas que incluye un cotizador de precios en vivo, formulario de contacto y secciones de la empresa:
 
 
 
