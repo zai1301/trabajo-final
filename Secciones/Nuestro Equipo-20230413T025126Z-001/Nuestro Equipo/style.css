@@ -1,4 +1,3 @@
-
 .navbar {
     margin-bottom: 0;
     background-color: #2d2d30;
@@ -37,21 +36,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    margin-left: 150px;
-    
-   
-    
+    align-items: stretch;
     }
-
   .contenedor{
-    font-family: "Futura", sans-serif;
-    position:absolute;
-    top: 260px;
-    margin-left: 100px;
-    margin-right: 800px;
+  display: grid;
+  column-gap:50px ;
+  row-gap: 50px;
+  /*flex-direction: row;*/
+  justify-content:center;
+  /*flex-wrap:wrap;*/
+  gap: 16px;
   }
-
-  
   .tarjeta{
   display: grid;
   justify-content:center;
