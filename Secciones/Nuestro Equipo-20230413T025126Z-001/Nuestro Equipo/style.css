@@ -31,23 +31,24 @@
   }
   .container {
     padding: 80px 120px;
+    justify-content: center;
   }
-  .grid { 
+.grid { 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 50px;
     align-items: stretch;
     }
-  .contenedor{
+.contenedor{
   display: grid;
   column-gap:50px ;
   row-gap: 50px;
-  /*flex-direction: row;*/
+  /*flex-direction: r;*/
   justify-content:center;
   /*flex-wrap:wrap;*/
   gap: 16px;
   }
-  .tarjeta{
+.tarjeta{
   display: grid;
   justify-content:center;
   width: 250px;;
@@ -56,12 +57,12 @@
   border-radius:15px;
   font-family: sans-serif;
   }
-  .titulo{
+.titulo{
   font-size: 24px;
   padding: 10px 10px 0 10px;
   justify-content: center;
   }
-  .cuerpo{
+.cuerpo{
   padding:0 20px 20px;
   flex: 1 1 100%;
   justify-content: center;
@@ -69,7 +70,6 @@
 .img{  
   margin: 5px;
   border: 1px solid #ccc;
-  float: left;
-  width: 180px;
   justify-content: center;
-}
+  width: 180px;
+  }
